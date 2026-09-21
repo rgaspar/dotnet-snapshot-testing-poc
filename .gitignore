@@ -1,0 +1,67 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+*.pdb
+*.dll
+*.exe
+*.log
+
+# Test output
+[Tt]est[Rr]esults/
+[Cc]overage/
+coverage.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Snapshot-mismatch scratch (regenerated on failure; never commit)
+**/__snapshots__/__MISMATCH__/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+packages/
+
+# EF Core scratch
+[Mm]igrations/**/*.designer.cs.user
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.rsuser
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider / MSBuild / R#
+_ReSharper.Caches/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.tmp
+.vshistory/
+
+# Local secrets / env
+*.env
+*.env.local
+appsettings.*.local.json
+secrets.json
+
+# Docker / temp
+*.pid
+*.seed
+*.tmp

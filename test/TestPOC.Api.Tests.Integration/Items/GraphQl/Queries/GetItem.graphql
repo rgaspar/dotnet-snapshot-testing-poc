@@ -1,0 +1,8 @@
+query GetItem($id: UUID!) {
+  item(id: $id) {
+    id
+    name
+    price
+    createdAt
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "items": [
+      {
+        "createdAt": "2026-01-01T00:26:00.000Z",
+        "id": "9e6b57ac-97f8-7721-b66d-a31639a09399",
+        "name": "Awesome Concrete Pizza",
+        "price": 69.31
+      },
+      {
+        "createdAt": "2026-01-01T00:29:00.000Z",
+        "id": "ef2c3e7c-f2fd-7545-3caf-61a663564cc3",
+        "name": "Ergonomic Granite Soap",
+        "price": 419.05
+      },
+      {
+        "createdAt": "2026-01-01T00:30:00.000Z",
+        "id": "2679d4d8-2208-872c-4446-6ac95eaecfc3",
+        "name": "Fantastic Soft Pants",
+        "price": 130.12
+      },
+      {
+        "createdAt": "2026-01-01T00:27:00.000Z",
+        "id": "fddd8f70-f3d2-e31a-4ac7-70b0d0c363e4",
+        "name": "Practical Rubber Ball",
+        "price": 128.92
+      },
+      {
+        "createdAt": "2026-01-01T00:28:00.000Z",
+        "id": "8a29ac01-c8ff-451b-6924-be4d84497f1d",
+        "name": "Unbranded Wooden Chips",
+        "price": 126.52
+      }
+    ]
+  }
+}

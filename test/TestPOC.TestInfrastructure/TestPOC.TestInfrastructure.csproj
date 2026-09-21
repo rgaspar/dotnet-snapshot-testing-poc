@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsPackable>false</IsPackable>
+		<RootNamespace>TestPOC.TestInfrastructure</RootNamespace>
+		<AssemblyName>TestPOC.TestInfrastructure</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bogus" Version="35.6.5" />
+		<PackageReference Include="CsvHelper" Version="33.0.1" />
+		<PackageReference Include="HotChocolate.Language" Version="15.1.18" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+		<PackageReference Include="Testcontainers.PostgreSql" Version="4.0.0" />
+		<PackageReference Include="Testcontainers.RabbitMq" Version="4.0.0" />
+		<PackageReference Include="FluentAssertions" Version="6.12.1" />
+		<PackageReference Include="xunit.assert" Version="2.9.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\TestPOC.Api.Infrastructure\TestPOC.Api.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

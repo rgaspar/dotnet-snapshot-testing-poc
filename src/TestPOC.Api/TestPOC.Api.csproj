@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>TestPOC.Api</RootNamespace>
+		<AssemblyName>TestPOC.Api</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HotChocolate.AspNetCore" Version="15.1.7" />
+		<PackageReference Include="HotChocolate.Authorization" Version="15.1.7" />
+		<PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="15.1.7" />
+		<PackageReference Include="HotChocolate.Data.EntityFramework" Version="15.1.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+		<PackageReference Include="RabbitMQ.Client" Version="7.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="TestPOC.Api.Tests.Integration" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TestPOC.Api.Infrastructure\TestPOC.Api.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

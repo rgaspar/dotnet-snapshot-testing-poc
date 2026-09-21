@@ -43,7 +43,7 @@ debugger attached — reuses the containers by name/labels (`testpoc-postgres`,
 The initial EF migration must be generated once before you can build:
 
 ```powershell
-cd C:\Work\2026\TestPOC\src\TestPOC.Api
+cd <<Repo directory>>\TestPOC.Api
 dotnet ef migrations add InitialCreate --output-dir Migrations
 ```
 
@@ -249,7 +249,7 @@ End-to-end CSV regeneration:
 # 1. Bring the container up by running any test (or an SourceCsvRegenerator fact
 #    directly, since it injects SourceContainerReference and awaits it in
 #    InitializeAsync).
-cd C:\Work\2026\TestPOC
+cd <<Repo directory>>\TestPOC
 dotnet test --filter "FullyQualifiedName~ExportDataBySql" --configuration Debug
 
 # 2. To regenerate items.csv, unskip one of the SourceCsvRegenerator facts (edit

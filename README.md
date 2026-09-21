@@ -184,7 +184,7 @@ data mutations would race.
 ## Running
 
 ```powershell
-cd C:\Work\2026\TestPOC
+cd <<Repo directory>>
 dotnet restore
 dotnet build
 dotnet test

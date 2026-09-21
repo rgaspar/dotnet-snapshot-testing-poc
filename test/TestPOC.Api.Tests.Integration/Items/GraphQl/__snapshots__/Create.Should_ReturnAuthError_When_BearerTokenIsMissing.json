@@ -1,0 +1,20 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "extensions": {
+        "code": "AUTH_NOT_AUTHENTICATED"
+      },
+      "locations": [
+        {
+          "column": 3,
+          "line": 2
+        }
+      ],
+      "message": "The current user is not authorized to access this resource.",
+      "path": [
+        "createItem"
+      ]
+    }
+  ]
+}

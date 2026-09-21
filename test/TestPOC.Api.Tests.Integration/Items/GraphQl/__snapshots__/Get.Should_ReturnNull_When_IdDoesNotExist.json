@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": null
+  },
+  "errors": [
+    {
+      "extensions": {
+        "code": "Items.NotFound"
+      },
+      "locations": [
+        {
+          "column": 3,
+          "line": 2
+        }
+      ],
+      "message": "The requested item does not exist.",
+      "path": [
+        "item"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+query ListItems {
+  items {
+    id
+    name
+    price
+    createdAt
+  }
+}

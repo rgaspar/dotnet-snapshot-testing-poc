@@ -43,8 +43,7 @@ public sealed class SourceCsvRegenerator(SourceContainerReference sourceContaine
 		await SeedDatasetLoader.ExportTablesAsync(TablesToExport, DatasetsDirectory(), connection);
 	}
 
-	//[Fact(Skip = "Enable only when regenerating test datasets from a source DB.")]
-	[Fact]
+	[Fact(Skip = "Enable only when regenerating test datasets from a source DB.")]
 	public async Task RegenerateItemsCsv()
 	{
 		var sqlToExport = new List<CsvExportSpec>
